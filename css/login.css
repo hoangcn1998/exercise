@@ -1,0 +1,72 @@
+.main h2 {
+  font-size: 2.5rem;
+}
+
+.main .main__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5rem;
+}
+
+.main .main__title .main__title--login {
+  padding-right: 3rem;
+}
+
+.main .main__form {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #F2283F;
+}
+
+.main .main__form input {
+  border-radius: 3rem;
+  border: 1px solid #F2283F;
+  outline: none;
+  height: 4rem;
+  width: 35rem;
+}
+
+.main .main__form ::-webkit-input-placeholder {
+  color: #F2283F;
+  font-weight: inherit;
+  padding-left: 2rem;
+  opacity: 0.5;
+}
+
+.main .main__form input:nth-child(1) {
+  margin-bottom: 1rem;
+}
+
+.main .main__form .top-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.5rem;
+}
+
+.top-group__forgot {
+  padding-right: 7rem;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.btn.btn--primary {
+  border: none;
+  background-color: #F2283F;
+  color: #fff;
+  width: 12rem;
+  height: 3.5rem;
+  border-radius: 5rem;
+  font-weight: bold;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

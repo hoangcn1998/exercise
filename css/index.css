@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+.header .header__menu {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 10rem;
+  padding-top: 3rem;
+}
+
+.header .header__menu .header__menu--item {
+  font-size: 3rem;
+  padding: 0 2rem;
+  font-weight: 700;
+}
+
+.header .header__menu .header__menu--item button {
+  border: none;
+  outline: none;
+  background-color: #F2283F;
+  color: #fff;
+  cursor: pointer;
+  width: 9rem;
+  height: 4rem;
+  border-radius: 5rem;
+}
+
+.header .header__menu .header__menu--item button:hover {
+  background-color: #da0019;
+  transition: background-color 0.3s;
+}
+
+.header .header__menu .header__menu--item a {
+  color: #F2283F;
+}
+
+.slider {
+  display: flex;
+  height: 50rem;
+  overflow: hidden;
+  position: relative;
+  width: 95%;
+  margin: auto;
+  padding-top: 3rem;
+}
+
+.slider__img {
+  object-fit: cover;
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.slider__control {
+  position: absolute;
+  height: 100%;
+  right: 0;
+  cursor: pointer;
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.slider__control:hover {
+  background-color: #11111160;
+  transition: background-color 0.3s;
+  color: #fff;
+}
+
+.slider__control:nth-child(1) {
+  left: 0;
+}
+
+.faqs {
+  width: 50%;
+  margin: auto;
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+}
+
+.faqs .faqs__title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #F2283F;
+  padding-bottom: 3rem;
+}
+
+.faqs .faqs__item {
+  border: 1px solid #F2283F;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: #FEF4EA;
+  margin-bottom: 1.5rem;
+}
+
+.faqs .faqs__item--title {
+  flex-grow: 1;
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+  color: #F2283F;
+}
+
+.faqs__item-group {
+  display: flex;
+}
+
+.faqs__item--desc {
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.footer {
+  display: flex;
+  background-color: #F2283F;
+  color: #fff;
+  height: 7rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .footer__group {
+  padding-right: 5rem;
+}
+
+.footer .footer__group--icon {
+  font-size: 2rem;
+  padding: 0 1rem;
+}
+
+.footer .footer__desc {
+  font-size: 1.3rem;
+}
