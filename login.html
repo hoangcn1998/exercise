@@ -23,24 +23,37 @@
         <a href="#">Our Story</a>
       </li>
       <li class="header__menu--item">
-        <button>LOGIN</button>
+        <a href="login.html">
+          <button></button>
+        </a>
       </li>
     </ul>
   </div>
-  <div class="main">
+  <div class="main-login" id="login">
     <div class="main__title">
+      <h2 class="main__title--register active">Register</h2>
       <h2 class="main__title--login">Login</h2>
-      <h2 class="main__title--register">Register</h2>
     </div>
-    <form class="main__form">
-      <input type="text" class="main__form--email" placeholder="Email">
-      <input type="password" class="main__form--password" placeholder="Passowrd">
+    <form class="main__form" id="form-login" method="" action="index.html">
+      <input type="text" class="main__form--email" id="email" placeholder="Email">
+      <input type="password" class="main__form--password" id="password" placeholder="Passowrd">
       <div class="top-group">
         <p class="top-group__forgot">Forgot password</p>
-        <button type="submit" class="btn btn--primary top-group__submit">SIGN IN</button>
+        <button type="submit" class="btn btn--primary top-group__submit" id="sign-in-button">SIGN IN</button>
       </div>
       <div class="bottom-group">
         <p class="bottom-group__read">Read the Programer Rules <span>|</span>FAQ</p>
+      </div>
+    </form>
+  </div>
+  <div class="main-login" id="register">
+    <form class="main__form">
+      <input type="text" class="main__form--email" placeholder="Email" id="register-email">
+      <input type="text" class="main__form--email" placeholder="Confirm email" id="register-confirm-email">
+      <input type="password" class="main__form--password" placeholder="Passowrd" id="register-password">
+      <input type="password" class="main__form--password" placeholder="Confirm password" id="register-confirm-password">
+      <div class="top-group">
+        <button type="submit" class="btn btn--primary top-group__submit" id="regiter-button">REGISTER</button>
       </div>
     </form>
   </div>
