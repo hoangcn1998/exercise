@@ -85,6 +85,7 @@ a {
 
 .slider__control:nth-child(1) {
   left: 0;
+  z-index: 1;
 }
 
 .faqs {
