@@ -30,6 +30,12 @@ a {
   font-weight: 700;
 }
 
+.header .header__name {
+  font-size: 2rem;
+  margin-left: 5rem;
+  color: #F2283F;
+}
+
 .header .header__menu .header__menu--item button {
   border: none;
   outline: none;
@@ -124,6 +130,7 @@ a {
 .faqs__item--desc {
   font-size: 1.3rem;
   text-align: justify;
+  display: none;
 }
 
 .footer {

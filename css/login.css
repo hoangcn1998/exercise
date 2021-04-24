@@ -1,19 +1,26 @@
-.main h2 {
+.main-login h2 {
   font-size: 2.5rem;
 }
 
-.main .main__title {
+.main-login .main__title {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 5rem;
+  padding-bottom: 4rem;
 }
 
-.main .main__title .main__title--login {
-  padding-right: 3rem;
+.main-login .main__title h2 {
+  cursor: pointer;
+  user-select: none;
+  color: #F2283F;
+  padding-bottom: 1rem;
 }
 
-.main .main__form {
+.main-login .main__title .main__title--register {
+  margin-right: 3rem;
+}
+
+.main-login .main__form {
   font-size: 3rem;
   display: flex;
   justify-content: center;
@@ -22,7 +29,7 @@
   color: #F2283F;
 }
 
-.main .main__form input {
+.main-login .main__form input {
   border-radius: 3rem;
   border: 1px solid #F2283F;
   outline: none;
@@ -30,18 +37,18 @@
   width: 35rem;
 }
 
-.main .main__form ::-webkit-input-placeholder {
+.main-login .main__form ::-webkit-input-placeholder {
   color: #F2283F;
   font-weight: inherit;
   padding-left: 2rem;
   opacity: 0.5;
 }
 
-.main .main__form input:nth-child(1) {
+.main-login .main__form input:nth-child(1) {
   margin-bottom: 1rem;
 }
 
-.main .main__form .top-group {
+.main-login .main__form .top-group {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,10 +70,27 @@
   height: 3.5rem;
   border-radius: 5rem;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+
+#register-confirm-email {
+  margin-bottom: 1rem;
+}
+
+#register-password {
+  margin-bottom: 1rem;
+}
+
+.active {
+  border-bottom: 1px solid black;
+}
+
+#form-login {
+  display: none;
 }
